@@ -1,6 +1,6 @@
 import Footer from "@/components/footer/footer";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Roboto, Poppins } from "next/font/google";
 import Navbar from "@/components/navbar/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
