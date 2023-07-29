@@ -47,6 +47,8 @@ const About = () => {
             At Digital Storytellers, our expertise lies in creating a wide range
             of digital solutions tailored to your needs:
             <br />
+            <br /> - Creative Illustrations
+            <br />
             <br /> - Dynamic Websites
             <br />
             <br /> - Fast and Handy
