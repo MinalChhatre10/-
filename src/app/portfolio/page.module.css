@@ -1,12 +1,12 @@
 .mainTitle {
     font-size: 70px;
+    color: #5878b8;
   }
   
   .container {
   }
   
   .selectTitle {
-    color: #5878b8;
     margin: 20px 0px;
   }
   
@@ -39,10 +39,10 @@
     right: 10px;
     bottom: 10px;
     font-size: 40px;
-    color: #1e47c2;
+    color: #5878b8;
     font-weight: bold;
   }
   
   .item:hover .title {
-    color: #5878b8;
+    color: #bbb;
   }
