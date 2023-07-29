@@ -1,12 +1,13 @@
 .mainTitle {
-    font-size: 70px;
     color: #5878b8;
+    font-size: 70px;
   }
   
   .container {
   }
   
   .selectTitle {
+    color: #53c28b;
     margin: 20px 0px;
   }
   
