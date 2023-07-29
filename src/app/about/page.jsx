@@ -23,28 +23,29 @@ const About = () => {
         <div className={styles.item}>
           <h1 className={styles.title}>Who Are We?</h1>
           <p className={styles.desc}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            quae dolor, optio voluptatibus magnam iure esse tempora beatae. A
-            suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea
-            eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ducimus quae dolor, optio voluptatibus magnam iure esse tempora
-            beatae, a suscipit eos. Animi quibusdam cum omnis officiis
+            At Digital Storytellers, we believe in the power of creativity and
+            technology to make a difference. We are a team of passionate
+            individuals who come together to create innovative and impactful
+            digital experiences.
             <br />
             <br />
-            voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure
-            esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis
-            officiis voluptatum quo ea eveniet?
+            Our mission is to tell compelling stories through various digital
+            mediums, from stunning visuals to interactive websites and engaging
+            mobile apps. We take pride in crafting experiences that leave a
+            lasting impression on our audience.
+            <br />
+            <br />
+            With a strong focus on creativity and user experience, we strive to
+            bring your ideas to life and elevate your digital presence to new
+            heights. Join us on this journey of exploration and transformation
+            as we combine technology and storytelling to make a positive impact.
           </p>
         </div>
         <div className={styles.item}>
           <h1 className={styles.title}>What We Do?</h1>
           <p className={styles.desc}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            quae dolor, optio voluptatibus magnam iure esse tempora beatae, a
-            suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea
-            eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. -
-            Creative Illustrations
+            At Digital Storytellers, our expertise lies in creating a wide range
+            of digital solutions tailored to your needs:
             <br />
             <br /> - Dynamic Websites
             <br />

@@ -11,7 +11,7 @@ export default function Home() {
           Together, Let's Raise Awareness for Causes that Bring Lasting Impact
           and Forge a Path Towards a Better Future.
         </p>
-        <Button url="/portfolio" text="Contact" />
+        <Button url="/portfolio" text="See Our Works" />
       </div>
       <div className={styles.item}>
         <Image
