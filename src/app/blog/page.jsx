@@ -15,6 +15,10 @@ async function getData() {
   return res.json();
 }
 
+export const metadata = {
+  title: "Blogs",
+  description: "Blogs desc",
+};
 const Blog = async () => {
   const data = await getData();
   return (
