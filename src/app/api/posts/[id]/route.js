@@ -6,13 +6,14 @@ import mongoose from "mongoose";
 // Set the strictQuery option as needed
 mongoose.set("strictQuery", false); // or true, based on your preference
 console.log(process.env.MONGO);
-export const GET = async (request) => {
+export const GET = async (request, { params }) => {
+  const id = params;
   try {
     await connect();
 
-    const posts = await Post.find();
+    const post = await Post.findById(id);
 
-    return new NextResponse(JSON.stringify(posts), { status: 200 });
+    return new NextResponse(JSON.stringify(post), { status: 200 });
   } catch (err) {
     return new NextResponse("Database Error", { status: 500 });
   }
