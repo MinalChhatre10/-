@@ -26,7 +26,10 @@ const Dashboard = () => {
   if (session.status === "unauthenticated") {
     router?.push("/dashboard/login");
   }
-  return <div className={styles.container}></div>;
+
+  if (session.status === "authenticated") {
+    return <div className={styles.container}>Dashboard</div>;
+  }
 };
 
 export default Dashboard;

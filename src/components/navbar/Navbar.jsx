@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import styles from "./navbar.module.css";
-import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
+import styles from "./page.module.css";
 import { signOut, useSession } from "next-auth/react";
 
 const links = [
@@ -48,7 +47,6 @@ const Navbar = () => {
         lamamia
       </Link>
       <div className={styles.links}>
-        <DarkModeToggle />
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
             {link.title}
