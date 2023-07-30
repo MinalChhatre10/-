@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 
 // Set the strictQuery option as needed
 mongoose.set("strictQuery", false); // or true, based on your preference
-console.log(process.env.MONGO);
+//console.log(process.env.MONGO);
 export const GET = async (request) => {
   try {
     await connect();
