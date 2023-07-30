@@ -29,6 +29,7 @@ const Login = () => {
 
   return (
     <div className={styles.container}>
+      <h2 className={styles.subtitle}>Please sign in to see the dashboard.</h2>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           type="text"

@@ -22,14 +22,19 @@
     font-size: 20px;
     font-weight: bold;
   }
-  
+  .h1{
+    color: #53c28b; 
+  }
+  .link{
+    color: #53c28b;
+  }
   .button {
     width: 300px;
     padding: 20px;
     cursor: pointer;
-    background-color: #53c28b;
+    background-color:#31508d;
     border: none;
     border-radius: 5px;
     color: #eee;
     font-weight: bold;
-  }
+ }
