@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./page.module.css";
-export const metadata = {
-  title: "Dashboard",
-  description: "Dashboard desc",
-};
+import { useSession } from "next-auth/react";
+
 const Dashboard = () => {
-  return <div className={styles.container}>Dashboard</div>;
+  const session = useSession();
+  console.log(session);
+  return <div className={styles.container}></div>;
 };
 
 export default Dashboard;
