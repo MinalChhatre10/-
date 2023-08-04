@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        lamamia
+        CharityTales
       </Link>
       <div className={styles.links}>
         {links.map((link) => (

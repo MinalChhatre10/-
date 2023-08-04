@@ -120,7 +120,7 @@ const Dashboard = () => {
             cols="30"
             rows="10"
           ></textarea>
-          <button className={styles.button}>Send</button>
+          <button className={styles.button}>Post</button>
         </form>
       </div>
     );
